@@ -1,12 +1,11 @@
-"""
-Inserta el encabezado aquí y escribe tu código abajo
-"""
+#Múlltiplos
 
 # Entradas
-entrada = input()
+n1 = int(input("Introduzca un número: "))
+n2 = int(input("Introduzca otro número: "))
 
 # Proceso
-
-
-# Salidas
-print(salida)
+if n1 % n2 == 0:
+    print(f"El número {n1} es múltiplo del {n2}")
+else:
+    print(f"Ninguno de los números es múltiplo del otro")
