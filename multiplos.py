@@ -4,7 +4,7 @@
 n1 = int(input("Introduzca un número: "))
 n2 = int(input("Introduzca otro número: "))
 # Proceso
-if n1 == 0 or n2 == 0:
+if n1 == 0:
     print(f"Alguno de los dos números es cero")
 else:
     if n1 % n2 == 0:
